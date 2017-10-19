@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="android" name="platform_manifest" remote="comp" />
+  <project path="external/DUtils" name="external_DUtils" remote="comp" />
+  <project path="frameworks/av" name="frameworks_av" remote="comp" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="comp" />
+  <project path="frameworks/opt/cards" name="crdroidandroid/android_frameworks_opt_cards" remote="github" revision="7.1" />
+  <project path="frameworks/native" name="frameworks_native" remote="comp" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="comp" groups="pdk" />
+  <project path="packages/apps/alogcat" name="alogcat" revision="nougat" remote="comp" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="comp" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" groups="pdk-fs" remote="comp" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="comp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="comp" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="comp" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="comp" />
+  <project path="packages/apps/Gallery2" name="packages_apps_SnapdragonGallery" remote="comp" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="comp" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="comp" />
+  <project path="packages/apps/OmniClock" name="omnirom/android_packages_apps_OmniClock" remote="github" revision="android-7.1" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="comp" />
+  <project path="packages/apps/OmniSwitch" name="Flash-ROM/packages_apps_OmniSwitch" remote="github" revision="n7.1.1" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="comp" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="comp" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="comp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="comp" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="comp" />
+  <project path="system/core" name="system_core" remote="comp" groups="pdk" />  
+  <project path="system/media" name="android_system_media" remote="comp" groups="pdk" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="comp" />
+  <project path="vendor/cm" name="android_vendor_resurrection" remote="comp" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="comp" />
+
+  <!-- Vendor samsung -->
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppet" />
+
+</manifest>
