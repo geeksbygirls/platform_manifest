@@ -24,7 +24,14 @@
 
   <remote  name="comp"
 	   fetch="https://github.com/7comp"
-	   revision="n7.1" /> 
+	   revision="n7.1" />
+
+  <remote  name="crdroid"
+           fetch=".."
+           sync-c="true"
+           sync-j="4"
+           review="review.lineageos.org"
+           revision="refs/heads/7.1" />
 
   <remote  name="muppet"
 	   fetch="https://github.com/TheMuppets"
