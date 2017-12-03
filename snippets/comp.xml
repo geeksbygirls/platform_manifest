@@ -7,6 +7,7 @@
   <project path="frameworks/opt/cards" name="crdroidandroid/android_frameworks_opt_cards" remote="github" revision="7.1" />
   <project path="frameworks/native" name="frameworks_native" remote="comp" groups="pdk" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="comp" groups="pdk" />
+  <project path="packages/apps/alogcat" name="alogcat" remote="comp" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="comp" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" groups="pdk-fs" remote="comp" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="comp" groups="pdk-cw-fs,pdk-fs" />
