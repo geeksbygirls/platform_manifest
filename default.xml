@@ -22,8 +22,8 @@
 	   fetch="https://github.com/ResurrectionRemix"
 	   revision="nougat" />
 
-  <remote  name="comp"
-	   fetch="https://github.com/7comp"
+  <remote  name="gbg"
+	   fetch="https://github.com/geeksbygirls"
 	   revision="n7.1" />
 
   <remote  name="crdroid"
@@ -38,12 +38,12 @@
 	   revision="cm-14.1" />
 
   <!-- AOSP Projects -->
-  <project path="build" name="android_build" remote="comp" >
+  <project path="build" name="android_build" remote="gbg" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
-  <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="comp" />
-  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="comp" >
+  <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="gbg" />
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="gbg" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -499,12 +499,12 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
-  <project path="OTA" name="OTA" remote="comp" revision="n7.1" >
+  <project path="OTA" name="OTA" remote="gbg" revision="n7.1" >
       <copyfile src="ota_conf" dest="ota_conf" />
   </project>
 
   <include name="snippets/rr-n.xml" />
   <include name="snippets/cm.xml" />
-  <include name="snippets/comp.xml" />
+  <include name="snippets/gbg.xml" />
 
 </manifest>

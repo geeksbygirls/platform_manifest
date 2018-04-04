@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="android" name="platform_manifest" remote="gbg" />
+  <project path="external/DUtils" name="external_DUtils" remote="gbg" />
+  <project path="frameworks/av" name="frameworks_av" remote="gbg" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="gbg" />
+  <project path="frameworks/opt/cards" name="crdroidandroid/android_frameworks_opt_cards" remote="github" revision="7.1" />
+  <project path="frameworks/native" name="frameworks_native" remote="gbg" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="gbg" groups="pdk" />
+  <project path="packages/apps/alogcat" name="alogcat" remote="gbg" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="gbg" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" groups="pdk-fs" remote="gbg" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="gbg" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="gbg" />
+  <project path="packages/apps/CustomTiles" name="android_packages_apps_CustomTiles" remote="gbg" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="gbg" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="gbg" />
+  <project path="packages/apps/Gallery2" name="packages_apps_SnapdragonGallery" remote="gbg" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="gbg" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="gbg" />
+  <project path="packages/apps/OmniClock" name="omnirom/android_packages_apps_OmniClock" remote="github" revision="android-7.1" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="gbg" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="gbg" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="gbg" />
+  <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" groups="pdk-fs" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="gbg" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="gbg" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="gbg" />
+  <project path="system/core" name="system_core" remote="gbg" groups="pdk" />  
+  <project path="system/media" name="android_system_media" remote="gbg" groups="pdk" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="gbg" />
+  <project path="vendor/cm" name="android_vendor_resurrection" remote="gbg" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="gbg" />
+
+  <!-- Vendor samsung -->
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="muppet" />
+
+</manifest>
