@@ -4,11 +4,8 @@
   <project path="packages/apps/ResurrectionStats" name="packages_apps_ResurrectionStats" remote="rr" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="rr" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="rr" />
-  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="rr" />
   <project path="packages/apps/StorageManager" name="android_packages_apps_StorageManager" remote="rr" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="rr" />
   <project path="external/skia" name="external_skia" remote="rr" />
-  <project path="art" name="art" remote="rr" />
   <project path="external/google" name="android_external_google" remote="rr" />
 
   <!-- interfacer -->

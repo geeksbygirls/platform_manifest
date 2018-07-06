@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="android" name="platform_manifest" remote="gbg" />
+  <project path="art" name="art" remote="rr" />
   <project path="external/DUtils" name="external_DUtils" remote="gbg" />
   <project path="frameworks/av" name="frameworks_av" remote="gbg" />
   <project path="frameworks/base" name="android_frameworks_base" remote="gbg" />
@@ -21,10 +22,12 @@
   <project path="packages/apps/OmniClock" name="omnirom/android_packages_apps_OmniClock" remote="github" revision="android-7.1" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="gbg" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="gbg" groups="pdk-fs" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="gbg" />
   <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="gbg" />
   <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" remote="crdroid" groups="pdk-fs" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="gbg" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="gbg" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="gbg" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="gbg" />
   <project path="system/core" name="system_core" remote="gbg" groups="pdk" />  
   <project path="system/media" name="android_system_media" remote="gbg" groups="pdk" />
